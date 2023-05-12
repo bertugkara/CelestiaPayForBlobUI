@@ -20,3 +20,11 @@ To use the application, connect your Keplr wallet. If you do not have Celestia n
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+Screenshots:
+<img width="1506" alt="Screenshot 2023-05-12 at 21 26 09" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/67d4fdc5-d02f-4045-8b4d-bc572d4c6171">
+<img width="1511" alt="Screenshot 2023-05-12 at 21 25 56" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/9da76e36-f298-4602-aa20-a82734f2a1ba">
+<img width="1508" alt="Screenshot 2023-05-12 at 21 25 39" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/0bea8641-ddc8-4a15-8307-b4500052243f">
+<img width="1511" alt="Screenshot 2023-05-12 at 21 25 24" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/eea5b514-35b5-407b-8464-5c3a942336e5">
+<img width="1506" alt="Screenshot 2023-05-12 at 21 25 14" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/be97ff1b-9666-4391-945c-ebc24ba82b03">
+<img width="1512" alt="Screenshot 2023-05-12 at 21 25 00" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/5f28b3bc-a47f-4ad6-b3e5-af808059f665">
