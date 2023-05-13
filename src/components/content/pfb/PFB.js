@@ -1,7 +1,7 @@
 import {Button, TextField, Typography} from "@mui/material";
 import {useEffect, useState} from "react";
 import {createRandomnessFactorAndData} from "./CreateRandomness";
-import {BLOCKSPACERACE_PARAMS, customRandomnessFactor, marginTop10Class} from "../../../utils/StylesAndParams";
+import {BLOCKSPACERACE_PARAMS, customRandomnessFactor, marginTop10Class, PFB_URL} from "../../../utils/StylesAndParams";
 import SendTx from "./SendTx";
 import {set} from "lodash";
 import axios from '../../../utils/axiosBase';
@@ -38,7 +38,7 @@ const PFB = () => {
         set(tx, "data", data);
         console.log(tx);
         await axios
-            .post(`sendTx`, JSON.stringify(tx), {
+            .post(PFB_URL, JSON.stringify(tx), {
                 headers: {"Content-Type": "application/json"}
             }).catch((error) => {
                 toastError(error.toString());

@@ -1,6 +1,7 @@
 export const namespaceAriaLabel = 'Namespace ID';
 export const dataAriaLabel = 'Data';
 export const customRandomnessFactor = 'Custom Randomness Factor';
+export const PFB_URL = `https://blacknodelabs.one/api/sendTx`;
 export const marginTop10Class = {
     marginTop: 10,
 }
