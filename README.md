@@ -21,6 +21,8 @@ To use the application, connect your Keplr wallet. If you do not have Celestia n
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
+This application is deployed at: [blacknodelabs.one](https://blacknodelabs.one/).
+
 Screenshots: Please note that the wallet address below is created for testing purposes. It does not hold any value, token.
 
 <img width="1512" alt="Screenshot 2023-05-12 at 21 25 00" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/5f28b3bc-a47f-4ad6-b3e5-af808059f665">
@@ -32,4 +34,5 @@ Screenshots: Please note that the wallet address below is created for testing pu
 <img width="1503" alt="loading" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/38d4783d-d76b-46d0-98b3-b93431e761c0">
 <img width="1495" alt="txsuccess" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/e4bdd72d-819e-46cd-a0bd-73435b93387a">
 (Not authorized, you are not owner of this node.)
-<img width="1512" alt="not authorized 401" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/4dfda169-245d-42aa-9bfd-bef090eaa905">
+<img width="1493" alt="not authorized 401" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/a6362314-24b8-42b8-a7be-35e45f0ad228">
+
