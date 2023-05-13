@@ -3,9 +3,10 @@ import {useEffect, useState} from "react";
 import {createRandomnessFactorAndData} from "./CreateRandomness";
 import {BLOCKSPACERACE_PARAMS, customRandomnessFactor, marginTop10Class, PFB_URL} from "../../../utils/StylesAndParams";
 import SendTx from "./SendTx";
-import {set} from "lodash";
+import {isEmpty, set} from "lodash";
 import axios from '../../../utils/axiosBase';
 import toastError, {toastSuccess} from "../../../utils/toast";
+import TxConclusionTemplate from "./TxConclusionTemplate";
 
 const gridStyle = {
     justifyContent: 'center',
@@ -18,6 +19,7 @@ const PFB = () => {
     const [customRandomness, setCustomRandomness] = useState(null);
     const [namespaceId, setNamespaceId] = useState(null);
     const [data, setData] = useState(null);
+    const [txResult, setTxResult] = useState(null);
 
     const handleCustomRandomnessFactorClicked = (customRandomness) => {
         const {nID, msg} = createRandomnessFactorAndData(customRandomness);
@@ -48,8 +50,8 @@ const PFB = () => {
     }
 
     const transactionResponseTemplate = (res) => {
-        console.log(res)
         if (res) res.status === 200 ? toastSuccess(res.data) : toastError(res.data);
+        setTxResult(res.data);
     }
 
     return <div style={gridStyle}>
@@ -60,6 +62,10 @@ const PFB = () => {
         <Button style={marginTop10Class} onClick={handleCustomRandomnessFactorClicked} variant="contained"
                 color="success">Generate Random Again And Calculate</Button>
         <SendTx params={BLOCKSPACERACE_PARAMS} handleSubmitTx={handleSubmitTx}/>
+        { !isEmpty(txResult) && <div style={marginTop10Class}>
+            <TxConclusionTemplate txResult={txResult}/>
+        </div>
+        }
     </div>
 
 }
