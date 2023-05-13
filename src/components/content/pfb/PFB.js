@@ -52,8 +52,16 @@ const PFB = () => {
     }
 
     const transactionResponseTemplate = (res) => {
-        if (res) res.status === 200 ? toastSuccess(res.data) : toastError(res.data);
-        setTxResult(res.data);
+        if (res && res.status === 200 && res.data) {
+            toastSuccess(res.data)
+            setTxResult(res.data);
+        } else if (res && res.status === 401) {
+            console.log(res)
+            toastError("You are owner of this Node.");
+        } else {
+            toastError("Something went wrong.");
+            console.log(res)
+        }
     }
 
     return <div style={gridStyle}>
@@ -64,7 +72,7 @@ const PFB = () => {
         <Button style={marginTop10Class} onClick={handleCustomRandomnessFactorClicked} variant="contained"
                 color="success">Generate Random Again And Calculate</Button>
         <SendTx params={BLOCKSPACERACE_PARAMS} handleSubmitTx={handleSubmitTx}/>
-        { !isEmpty(txResult) ? <div style={marginTop10Class}>
+        {!isEmpty(txResult) ? <div style={marginTop10Class}>
             <TxConclusionTemplate txResult={txResult}/>
         </div> : <h2 hidden={!isLoadingScreenVisible}>Loading...</h2>
         }
