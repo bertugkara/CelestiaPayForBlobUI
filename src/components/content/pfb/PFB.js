@@ -20,6 +20,7 @@ const PFB = () => {
     const [namespaceId, setNamespaceId] = useState(null);
     const [data, setData] = useState(null);
     const [txResult, setTxResult] = useState(null);
+    const [isLoadingScreenVisible, setIsLoadingScreenVisible] = useState(false);
 
     const handleCustomRandomnessFactorClicked = (customRandomness) => {
         const {nID, msg} = createRandomnessFactorAndData(customRandomness);
@@ -39,6 +40,7 @@ const PFB = () => {
         set(tx, "namespaceId", namespaceId);
         set(tx, "data", data);
         console.log(tx);
+        setIsLoadingScreenVisible(true);
         await axios
             .post(PFB_URL, JSON.stringify(tx), {
                 headers: {"Content-Type": "application/json"}
@@ -62,9 +64,9 @@ const PFB = () => {
         <Button style={marginTop10Class} onClick={handleCustomRandomnessFactorClicked} variant="contained"
                 color="success">Generate Random Again And Calculate</Button>
         <SendTx params={BLOCKSPACERACE_PARAMS} handleSubmitTx={handleSubmitTx}/>
-        { !isEmpty(txResult) && <div style={marginTop10Class}>
+        { !isEmpty(txResult) ? <div style={marginTop10Class}>
             <TxConclusionTemplate txResult={txResult}/>
-        </div>
+        </div> : <h2 hidden={!isLoadingScreenVisible}>Loading...</h2>
         }
     </div>
 
