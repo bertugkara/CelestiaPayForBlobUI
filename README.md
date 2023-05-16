@@ -33,7 +33,7 @@ Screenshots: Please note that the wallet address below is created for testing pu
 <img width="1506" alt="Screenshot 2023-05-12 at 21 26 09" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/67d4fdc5-d02f-4045-8b4d-bc572d4c6171">
 <img width="1503" alt="loading" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/27a30cdf-1703-460c-bf94-7c4e46b8d7e4">
 <img width="1495" alt="txsuccess" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/9dc3d353-d988-4a8c-a307-6163323ab801">
-https://testnet.mintscan.io/celestia-incentivized-testnet/account/celestia16x9f6rvqz7jkstyx4efz3gzs3r27tvne5ak4cx Wallet which achieved success transaction (Please, Remember this an demo node which I deployed for developing UI. My real and wallet is differ from them.)
+https://testnet.mintscan.io/celestia-incentivized-testnet/account/celestia16x9f6rvqz7jkstyx4efz3gzs3r27tvne5ak4cx Wallet which achieved success transaction (Please, Remember this an demo node which I deployed for developing UI. My real node and wallet is differ from them.)
 
 (Not authorized, you are not owner of this node.)
 <img width="1493" alt="not authorized 401" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/b24d4c45-3fc3-4f82-97d4-ecdf688d5042">
