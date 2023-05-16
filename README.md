@@ -31,8 +31,9 @@ Screenshots: Please note that the wallet address below is created for testing pu
 <img width="1508" alt="Screenshot 2023-05-12 at 21 25 39" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/0bea8641-ddc8-4a15-8307-b4500052243f">
 <img width="1511" alt="Screenshot 2023-05-12 at 21 25 56" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/9da76e36-f298-4602-aa20-a82734f2a1ba">
 <img width="1506" alt="Screenshot 2023-05-12 at 21 26 09" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/67d4fdc5-d02f-4045-8b4d-bc572d4c6171">
-<img width="1503" alt="loading" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/38d4783d-d76b-46d0-98b3-b93431e761c0">
-<img width="1495" alt="txsuccess" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/e4bdd72d-819e-46cd-a0bd-73435b93387a">
+<img width="1503" alt="loading" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/27a30cdf-1703-460c-bf94-7c4e46b8d7e4">
+<img width="1495" alt="txsuccess" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/9dc3d353-d988-4a8c-a307-6163323ab801">
 (Not authorized, you are not owner of this node.)
-<img width="1493" alt="not authorized 401" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/a6362314-24b8-42b8-a7be-35e45f0ad228">
+<img width="1493" alt="not authorized 401" src="https://github.com/bertugkara/CelestiaPayForBlobUI/assets/90678773/b24d4c45-3fc3-4f82-97d4-ecdf688d5042">
+
 
