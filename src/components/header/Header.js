@@ -13,7 +13,13 @@ function Header() {
 
     useEffect(() => {
         if (window.keplr) {
-            setIsKeplrInstalled(true);
+            try {
+                window.keplr.enable(BLOCKSPACERACE_PARAMS.chainId)
+                setIsKeplrInstalled(true);
+            } catch (error) {
+                alert("Please Refresh the page");
+                setIsKeplrInstalled(false)
+            }
         }
     },[])
 
